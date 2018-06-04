@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "844767653677",
+    "firebase_url": "https://igaze-f32f3.firebaseio.com",
+    "project_id": "igaze-f32f3",
+    "storage_bucket": "igaze-f32f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:844767653677:android:cdcbd341cf316226",
+        "android_client_info": {
+          "package_name": "com.igaze"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "844767653677-n1jhme0k17h1074amt4vp8job3bi3e0t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.igaze",
+            "certificate_hash": "47e8ec3547921809bfc73373e00a1b7c4cea2652"
+          }
+        },
+        {
+          "client_id": "844767653677-5e8g8t5aej583s83j3ru8u8crjj0eull.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "844767653677-5e8g8t5aej583s83j3ru8u8crjj0eull.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc9TfsPwWMWAIeS-mNCZa7Giss7olK_Dk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "844767653677-5e8g8t5aej583s83j3ru8u8crjj0eull.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="3dp"
+    android:layout_marginTop="5dp"
+    android:background="@drawable/card_view_box" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.igaze.Utilities.CustomBoldTextView
+                android:layout_width="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/rowWishTitle"
+                android:textSize="18sp"
+                android:text="Wish Prefix"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_toLeftOf="@+id/wishDeleteIcon"
+                android:layout_toStartOf="@id/wishDeleteIcon"
+                android:id="@+id/wishEditIcon"
+                android:src="@drawable/ic_edit_black_24dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentRight="true"
+                android:id="@+id/wishDeleteIcon"
+                android:src="@drawable/ic_delete_black_24dp"
+                android:layout_height="wrap_content" />
+
+        </RelativeLayout>
+
+        <com.igaze.Utilities.CustomTextView
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/rowWish"
+            android:text="wish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.igaze.Utilities.CustomTextView
+            android:id="@+id/rowTargetDate"
+            android:text="date"
+            android:layout_marginTop="5dp"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

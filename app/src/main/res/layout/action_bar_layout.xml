@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFC837"
+    android:id="@+id/layout">
+
+    <ImageView
+        android:id="@+id/appIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/ic_info_outline_24dp" />
+
+    <TextView
+        android:layout_centerInParent="true"
+        android:text="igaze"
+        android:textSize="28sp"
+        android:textColor="@color/purple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/dateIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitCenter"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_date_range_black_24dp" />
+
+
+
+
+    <!-- <com.ascentbrezie.brezie.utilities.CustomBoldTextView
+         android:layout_width="wrap_content"
+         android:layout_toRightOf="@+id/appIcon"
+         android:layout_toEndOf="@id/appIcon"
+         android:text="Brezie"
+         android:textSize="25sp"
+         android:layout_marginStart="10dp"
+         android:layout_marginLeft="20dp"
+         android:layout_centerVertical="true"
+         android:textColor="@android:color/white"
+         android:layout_height="wrap_content" /> -->
+
+</RelativeLayout>

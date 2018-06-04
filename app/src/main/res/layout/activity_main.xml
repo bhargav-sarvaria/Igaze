@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.igaze.Activities.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/apppbar"
+        android:layout_alignParentTop="true"
+        style="@style/ToolbarTheme"
+        android:background="#FFC837"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:gravity="center"
+        android:id="@+id/titleLayout"
+        android:layout_below="@id/apppbar"
+        android:layout_marginTop="75dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.igaze.Utilities.CustomBoldTextView
+            android:id="@+id/wishTitle"
+            android:layout_centerVertical="true"
+            android:textSize="25sp"
+            android:text="I would like to"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/titleEditIcon"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/wishTitle"
+            android:layout_toRightOf="@+id/wishTitle"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_edit_black_24dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/wishText"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_below="@id/titleLayout"
+        android:padding="5dp"
+        android:background="@drawable/edit_text_background"
+        android:hint="Enter your wish here..."
+        android:inputType="textMultiLine"
+        android:lines="15"
+        android:minLines="10"
+        android:gravity="top|start"
+        android:maxLines="10"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:scrollbars="vertical"
+        />
+
+    <Button
+        android:id="@+id/saveWishButton"
+        android:text="SAVE"
+        android:layout_below="@+id/wishText"
+        android:textSize="25sp"
+        android:layout_margin="5dp"
+        android:background="@drawable/button_background"
+        android:textColor="@color/purple"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
